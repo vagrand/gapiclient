@@ -1,0 +1,43 @@
+{
+  "name": "vagrand/gapiclient",
+  "version": "1.0.0",
+  "description": "Стандартизованное API коннектора, предназначенного для интеграции с внешним источником данных. Общая спецификация [тут](https://co-ms.atlassian.net/wiki/spaces/NC/pages/85852315/Generic+API)",
+  "keywords": [
+    "openapitools",
+    "openapi-generator",
+    "openapi",
+    "php",
+    "sdk",
+    "rest",
+    "api"
+  ],
+  "homepage": "https://ms.rt.ru",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "COMS",
+      "homepage": "https://ms.rt.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.4",
+    "friendsofphp/php-cs-fixer": "^2.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "GenericApi\\Client\\": "lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GenericApi\\Client\\": "test/"
+    }
+  }
+}
