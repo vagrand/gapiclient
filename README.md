@@ -1,4 +1,4 @@
-# OpenAPIClient-php
+# GenericApi
 
 Стандартизованное API коннектора, предназначенного для интеграции с внешним источником данных. Общая спецификация [тут](https://co-ms.atlassian.net/wiki/spaces/NC/pages/85852315/Generic+API)
 
@@ -39,7 +39,7 @@ Then run `composer install`
 Download the files and include `autoload.php`:
 
 ```php
-    require_once('/path/to/OpenAPIClient-php/vendor/autoload.php');
+    require_once('/path/to/GenericApi/vendor/autoload.php');
 ```
 
 ## Tests
